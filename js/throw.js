@@ -10,6 +10,7 @@ AFRAME.registerComponent("throw",{
 
                 bowl.setAttribute("geometry",{
                     primitive : "sphere",
+                    radius : "0.75"
                 })
 
                 bowl.setAttribute("material",{
@@ -17,7 +18,7 @@ AFRAME.registerComponent("throw",{
                 })
 
                 bowl.setAttribute("dynamic-body",{
-                    mass : "0",
+                    mass : "100",
                     shape : "sphere",
                   })
 
